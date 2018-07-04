@@ -3,10 +3,10 @@
 
 ---
 
-1	Github
-2	REST Principles
-3	Creating RESTful Node.js API
-4	Running Node.js APIs on production
+1	Github  
+2	REST Principles  
+3	Creating RESTful Node.js API  
+4	Running Node.js APIs on production  
 
 ---
 

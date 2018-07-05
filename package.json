@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/ApoTheOne/NodeJsRestApi/issues"
   },
-  "homepage": "https://github.com/ApoTheOne/NodeJsRestApi#readme"
+  "homepage": "https://github.com/ApoTheOne/NodeJsRestApi#readme",
+  "dependencies": {}
 }

@@ -30,8 +30,8 @@
 - **Content Negotiation**
  - ACCEPT : HTTP Request Header
  - MIME Types  
- **Ex:**
- ```GET /users/apo
+ ```
+ GET /users/anurag
  Accept: video/*
          image/gif
          image/jpeg

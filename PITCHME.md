@@ -40,9 +40,9 @@
  ```
  Response Header  
  ``` content-type: image/png ```
- 
- --- 
- 
+
+---
+
 - **Cross Origin Resource Sharing**
  - 
 

@@ -27,6 +27,25 @@
 
 ---
 
+- **Content Negotiation**
+ - ACCEPT : HTTP Request Header
+ - MIME Types  
+ **Ex:**
+ GET /users/apo
+ Accept: video/*
+         image/gif
+         image/jpeg
+         application/json
+         text/xml
+ 
+ Response Header
+ - content-type: image/png
+ 
+ --- 
+ 
+- **Cross Origin Resource Sharing**
+ - 
+
 ### RESTful Node.js API
 
 

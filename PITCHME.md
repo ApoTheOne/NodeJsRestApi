@@ -23,7 +23,7 @@
 - Stateless |
 - Cacheable |
 - Layered system |
-- Code on demand (optional) |
+- Code on demand (optional) 
 
 ---
 

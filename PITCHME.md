@@ -23,11 +23,11 @@
 - Stateless |
 - Cacheable |
 - Layered system |
-- Code on demand (optional) 
+- Code on demand (optional) |  
 
 ---
 
-- **Content Negotiation**
+**Content Negotiation**
  - ACCEPT : HTTP Request Header
  - MIME Types  
  ```
@@ -38,7 +38,7 @@
          application/json
          text/xml
  ```
- Response Header
+ Response Header  
  ``` content-type: image/png ```
  
  --- 

@@ -20,6 +20,8 @@
 ### Representational state transfer
 Architectural style that defines a set of constraints to be used for creating web services.
 
+---
+
 **REST Principles**
 - Uniform interface |
 - Client–server |

@@ -4,7 +4,7 @@
 ---
 
 1	GitHub  
-2	REST Principles  
+2	REST?
 3	Creating RESTful Node.js API  
 4	Running Node.js APIs on production  
 
@@ -17,7 +17,10 @@
  
 ---
 
-### REST Principles :
+### Representational state transfer
+Architectural style that defines a set of constraints to be used for creating web services.
+
+**REST Principles**
 - Uniform interface |
 - Client–server |
 - Stateless |
@@ -27,23 +30,27 @@
 
 ---
 
-**Content Negotiation**
-- ACCEPT : HTTP Request Header
-- MIME Types  
+### Content Negotiation
+**HTTP Request Headers**  
+- Accept
+ - MIME Types
+- Accept-Language
+- Accept-Encoding
 ```
 GET /users/anurag
-Accept: video/*
-        image/gif
-        image/jpeg
-        application/json
-        text/xml
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
 ```
 Response Header  
-``` content-type: image/png ```
+```
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+```
 
 ---
 
-**Cross Origin Resource Sharing**
+**Cross Origin Resource Sharing**  
  -
  -
  

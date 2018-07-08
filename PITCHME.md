@@ -28,23 +28,26 @@
 ---
 
 **Content Negotiation**
- - ACCEPT : HTTP Request Header
- - MIME Types  
- ```
- GET /users/anurag
- Accept: video/*
-         image/gif
-         image/jpeg
-         application/json
-         text/xml
- ```
- Response Header  
- ``` content-type: image/png ```
+- ACCEPT : HTTP Request Header
+- MIME Types  
+```
+GET /users/anurag
+Accept: video/*
+        image/gif
+        image/jpeg
+        application/json
+        text/xml
+```
+Response Header  
+``` content-type: image/png ```
 
 ---
 
-- **Cross Origin Resource Sharing**
- - 
+**Cross Origin Resource Sharing**
+ -
+ -
+ 
+---
 
 ### RESTful Node.js API
 

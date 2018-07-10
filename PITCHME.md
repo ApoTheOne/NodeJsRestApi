@@ -32,8 +32,8 @@ Architectural style that defines a set of constraints to be used for creating we
 
 ---
 
-### Content Negotiation
-**HTTP Request Headers**  
+**Content Negotiation**
+HTTP Request Headers: 
 - Accept
  - MIME Types
 - Accept-Language
@@ -44,6 +44,8 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/a
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
 ```
+---
+
 Response Header  
 ```
 Content-Type: text/html; charset=utf-8

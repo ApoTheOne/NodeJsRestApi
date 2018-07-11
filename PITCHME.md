@@ -2,7 +2,7 @@
 ### Node.js
 
 ---
-
+**TOPICS**
 1.	GitHub  
 2.	REST?  
 3.	Creating RESTful Node.js API  
@@ -32,7 +32,7 @@ Architectural style that defines a set of constraints to be used for creating we
 
 ---
 
-**Content Negotiation**
+**Content Negotiation**  
 HTTP Request Headers: 
 - Accept
  - MIME Types

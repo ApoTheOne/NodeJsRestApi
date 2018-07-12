@@ -76,11 +76,14 @@ allowed HTTP methods supported by the server providing the resource.
 ---
 
 - Access-Control-Allow-Headers: This is a required header. If the request
-contains Access-Control-Request-Headers, then it provides a commaseparated
+contains Access-Control-Request-Headers, then it provides a comma separated
 list of all the headers accepted by the server providing the
 resource.
 - Access-Control-Allow-Credentials: This is an optional header used to
 indicate that cookies should be included in the CORS request.
+
+---
+
 - Access-Control-Expose-Headers: This is an optional header. Its value is a
 comma-separated list of headers that should be exposed to the client.
 - Access-Control-Max-Age: This is an optional header that allows you to

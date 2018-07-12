@@ -57,33 +57,33 @@ Content-Encoding: gzip
 
 **Cross Origin Resource Sharing**  
  The HTTP request headers are as follows:
-• Origin: This defines where the actual request originates from
-• Access-Control-Request-Method: This defines the method that should be
+- Origin: This defines where the actual request originates from
+- Access-Control-Request-Method: This defines the method that should be
 used for the actual request
-• Access-Control-Request Header: This defines the headers that should be
+- Access-Control-Request Header: This defines the headers that should be
 used in the actual request
  
 ---
 
 The HTTP response headers are as follows:
-• Access-Control-Allow-Origin: This is a required header in all valid CORS
+- Access-Control-Allow-Origin: This is a required header in all valid CORS
 responses. It either echoes the origin of the actual host that request has been
 made from, if that is the only origin allowed to access the resource, or * if it
 can be accessed from any host.
-• Access-Control-Allow-Methods: This is a required header. It lists all the
+- Access-Control-Allow-Methods: This is a required header. It lists all the
 allowed HTTP methods supported by the server providing the resource.
 
 ---
 
-• Access-Control-Allow-Headers: This is a required header. If the request
+- Access-Control-Allow-Headers: This is a required header. If the request
 contains Access-Control-Request-Headers, then it provides a commaseparated
 list of all the headers accepted by the server providing the
 resource.
-• Access-Control-Allow-Credentials: This is an optional header used to
+- Access-Control-Allow-Credentials: This is an optional header used to
 indicate that cookies should be included in the CORS request.
-• Access-Control-Expose-Headers: This is an optional header. Its value is a
+- Access-Control-Expose-Headers: This is an optional header. Its value is a
 comma-separated list of headers that should be exposed to the client.
-• Access-Control-Max-Age: This is an optional header that allows you to
+- Access-Control-Max-Age: This is an optional header that allows you to
 cache the response for the value specified by it.
 
 ---

@@ -40,7 +40,7 @@ It uses built in **Request.accepts()** to select appropriate handler for the req
 If that is not found, the server invokes default handler, which resonds with HTTP 406 Not acceptable.  
 
 ---
-
+Code Sample:
 ```
 app.get('/users', function(request, response) {
  response.format( {
@@ -95,7 +95,7 @@ made from, if that is the only origin allowed to access the resource, or * if it
 can be accessed from any host.  
 - Access-Control-Allow-Methods* : This is a required header. It lists all the
 allowed HTTP methods supported by the server providing the resource.  
-* => required headers
+required headers*
 ---
 
 - Access-Control-Allow-Headers*: This is a required header. If the request
@@ -104,7 +104,7 @@ list of all the headers accepted by the server providing the
 resource.  
 - Access-Control-Allow-Credentials: This is an optional header used to
 indicate that cookies should be included in the CORS request.  
-* => required headers
+required headers*
 ---
 
 - Access-Control-Expose-Headers: This is an optional header. Its value is a

@@ -88,7 +88,7 @@ used for the actual request
 used in the actual request   
 ---
 
-Valid CORS HTTP response headers start with Access-Control-Allow:
+Valid CORS HTTP response headers start with Access-Control-Allow:  
 - Access-Control-Allow-Origin* : This is a required header in all valid CORS
 responses. It either echoes the origin of the actual host that request has been
 made from, if that is the only origin allowed to access the resource, or * if it
@@ -125,6 +125,10 @@ app.use((req, res, next) => {
     next();
 });
 ```
+
+---
+
+**API Versioning**  
 
 ---
 

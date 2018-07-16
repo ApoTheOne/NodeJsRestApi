@@ -35,9 +35,9 @@ Architectural style that defines a set of constraints to be used for creating we
 
 **Content Negotiation**  
 
-In Node.js, HTTP response object contains a method **response.format()** which performs the content negotiation based on the **Accept** HTTP headers if set in the request object.  
-It uses built in **Request.accepts()** to select appropriate handler for the request.  
-If that is not found, the server invokes default handler, which resonds with HTTP 406 Not acceptable.  
+- In Node.js, HTTP response object contains a method **response.format()** which performs the content negotiation based on the **Accept** HTTP headers if set in the request object.  
+- It uses built in **Request.accepts()** to select appropriate handler for the request.  
+- If that is not found, the server invokes default handler, which resonds with HTTP 406 Not acceptable.  
 
 ---
 Code Sample:

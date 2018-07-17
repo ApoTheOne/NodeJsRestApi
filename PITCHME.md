@@ -28,7 +28,7 @@ So REST is about creating representation of object's current state and transferr
 
 ---
 
-### REST Principles [Source](https://www.servage.net/blog/2013/04/08/rest-principles-explained/)
+### REST Principles  [Source](https://www.servage.net/blog/2013/04/08/rest-principles-explained/)  
 **Uniform interface**  
 Individual resources are identified by logical URIs. The resources (database) are themselves different from the representation (XML, JSON, HTML) sent to the client. The client can manipulate the resource through the representations provided they have the permissions. Each message sent between the client and the server is self-descriptive and includes enough information to describe how it is to be processed. The hypermedia that is hyperlinks and hypertext act as the engine for state transfer.
 

@@ -18,7 +18,7 @@
  
 ---
 
-### Representational state transfer
+### Representational state transfer  
 **Architectural style that defines a set of constraints to be used for creating web services**  
 - Representational State Transfer refers to transferring "representations". You are using a "representation" of a resource to transfer resource state which lives on the server into application state on the client.
 ---

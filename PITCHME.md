@@ -28,7 +28,7 @@ So REST is about creating representation of object's current state and transferr
 
 ---
 
-### REST Principles  [Source](https://www.servage.net/blog/2013/04/08/rest-principles-explained/)  
+### REST Principles  
 **Uniform interface**  
 Individual resources are identified by logical URIs. The resources (database) are themselves different from the representation (XML, JSON, HTML) sent to the client. The client can manipulate the resource through the representations provided they have the permissions. Each message sent between the client and the server is self-descriptive and includes enough information to describe how it is to be processed. The hypermedia that is hyperlinks and hypertext act as the engine for state transfer.
 
@@ -39,12 +39,12 @@ The clients and the server are separated from each other thus the client is not 
 
 ---
 
-**Stateless**
+**Stateless**  
 None of the clients context is to be stored on the server side between the request. All of the information necessary to service the request is contained in the URL, query parameters, body or headers.  
 [p]
 ---
 
-**Cacheable**
+**Cacheable**  
 Clients can cache the responses. The responses must define themselves as cacheable or not to
 prevent the client from sending the inappropriate data in response to further requests.
 - Use HTTP Headers for caching the response for specified amount of time (if required*)
@@ -53,13 +53,15 @@ prevent the client from sending the inappropriate data in response to further re
 [p] [c]
 ---
 
-**Layered system**
+**Layered system**  
 At any time client cannot tell if it is connected to the end server or to an intermediate. The  intermediate layer helps to enforce the security policies and improve the system scalability by enabling load-balancing.
 
 ---
 
 - **Code on demand** (optional)  
 An optional constraint where the server temporarily extends the functionality of a client by the transfer of executable code.
+
+[Source](https://www.servage.net/blog/2013/04/08/rest-principles-explained/)  
 ---
 
 **Content Negotiation**  

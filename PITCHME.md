@@ -185,8 +185,10 @@ Try it out!
 ### Deploying and running
 ### Node.js API
 ### on production
-An optional constraint where the server temporarily extends the functionality of a client by the transfer of executable code.
 
+- PM2
+- Use web server and for reverse proxy use Nginx
+- Can also be hosted on IIS*
 ---
 
 Thank you

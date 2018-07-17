@@ -186,8 +186,11 @@ Try it out!
 ### Node.js API
 ### on production
 
+- Docker
+- AWS EC2
+- Heroku
 - PM2
-- Use web server and for reverse proxy use Nginx
+- Use Nginx as reverse proxy
 - Can also be hosted on IIS*
 ---
 

@@ -49,7 +49,7 @@ Clients can cache the responses. The responses must define themselves as cacheab
 prevent the client from sending the inappropriate data in response to further requests.
 - Use HTTP Headers for caching the response for specified amount of time (if required*)
 - Cache-Control header
-- Use __max-age__ attribute to set cache expiry time
+- Use __max-age__ attribute to set cache expiry time  
 [p] [c]
 ---
 
@@ -159,28 +159,26 @@ app.use((req, res, next) => {
 ---
 
 **API Versioning**  
-https://www.apiendpoint/users
-fter releasing a new version of this API:
+Original URI:  
+https://www.apiendpoint/users  
 
-We can have following URLs for backward compatibility:
-https://www.apiendpoint/version1/users 
-or 
-https://www.apiendpoint/users?version=1
-
-d redirect request (301 Moved Permanently HTTP status) for 
-https://www.apiendpoint/users
-to 
-https://www.apiendpoint/version2/users
-or
-tps://www.apiendpoint/users?version=2
-- Use HTTP Headers for caching the response for specified amount of time (if required*)
-- Cache-Control header
-- Use __max-age__ attribute to set cache expiry time
+After releasing a new version of this API:-  
+We can have following URLs for backward compatibility:  
+https://www.apiendpoint/version1/users  
+or  
+https://www.apiendpoint/users?version=1  
+---
+We redirect request (301 Moved Permanently HTTP status) for   
+https://www.apiendpoint/users  
+to  
+https://www.apiendpoint/version2/users  
+or  
+htps://www.apiendpoint/users?version=2
 ---
 
 ### RESTful Node.js API
 
-y it out!
+Try it out!
 
 ---
 

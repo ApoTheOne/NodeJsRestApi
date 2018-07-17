@@ -129,11 +129,34 @@ app.use((req, res, next) => {
 ---
 
 **API Versioning**  
+https://www.apiendpoint/users
 
+After releasing a new version of this API:
+
+We can have following URLs for backward compatibility:
+https://www.apiendpoint/version1/users 
+or 
+https://www.apiendpoint/users?version=1
+
+And redirect request (301 Moved Permanently HTTP status) for 
+https://www.apiendpoint/users
+to 
+https://www.apiendpoint/version2/users
+or
+https://www.apiendpoint/users?version=2
+
+---
+
+**Caching**  
+- Use HTTP Headers for caching the response for specified amount of time (if required*)
+- Cache-Control header
+- Use __max-age__ attribute to set cache expiry time
+- 
 ---
 
 ### RESTful Node.js API
 
+Try it out!
 
 ---
 

@@ -21,6 +21,7 @@
 ### Representational state transfer
 **Architectural style that defines a set of constraints to be used for creating web services**  
 - Representational State Transfer refers to transferring "representations". You are using a "representation" of a resource to transfer resource state which lives on the server into application state on the client.
+---
 - Every object has some state(data) and behaviour(methods).In order to transfer state of object on server at particular instance of time to client, some sort of representation is needed like JSON or xml or any other format.  
 So REST is about creating representation of object's current state and transferring that representation over network.  
 [Source](https://stackoverflow.com/questions/10418105/what-does-representational-state-mean-in-rest)  
